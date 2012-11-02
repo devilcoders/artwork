@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'archiveregular';
+    src: url('/public/fonts/archive-webfont.eot');
+    src: url('/public/fonts/archive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/archive-webfont.woff') format('woff'),
+         url('/public/fonts/archive-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-family: 'archiveregular';
+  font-weight: normal;
+}
+
+#logo {
+  text-align: center;
+
+  h1 {
+    font-size: 172px;  
+    margin-bottom: 0;
+    line-height: 120px;
+
+    .part-1 {
+      color: #FF6600;
+    }
+    .part-2 {
+      color: #7CB490;
+    }
+  }
+
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #ccc;
+  }
+}
+
+#main-menu {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 15px;
+
+  a {
+    text-decoration: none;
+    color: #ccc;
+
+    &:hover {
+      color: #7CB490;
+    }
+  }
+}
