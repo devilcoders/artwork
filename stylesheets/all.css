@@ -770,8 +770,8 @@ ul.inline {
 
 @font-face {
   font-family: 'archiveregular';
-  src: url("fonts/archive-webfont.eot");
-  src: url("fonts/archive-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/archive-webfont.woff") format("woff"), url("fonts/archive-webfont.ttf") format("truetype");
+  src: url("../fonts/archive-webfont.eot");
+  src: url("../fonts/archive-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/archive-webfont.woff") format("woff"), url("../fonts/archive-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
