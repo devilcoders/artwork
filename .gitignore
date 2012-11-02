@@ -9,6 +9,7 @@
 
 # Ignore Sass' cache
 /.sass-cache
+/build
 *.gem
 *.rbc
 .bundle
