@@ -15,18 +15,7 @@
   </head>
   
   <body class="<%= page_classes %>">
-    <div class="grid">
-      <header id="main-header" class="grid-pad">
-        <figure id="logo">
-          <%= image_tag "favicon.png"  %>
-        </figure>
-        <nav id="main-nav">
-          <ul class="inline">
-            <li><%= link_to 'Home', '/index.html' %></li>
-            <li><%= link_to 'Components', '/components/index.html' %></li>
-          </ul>
-        </nav>
-      </header>
+    <div class="container">
       <%= yield %>
     </div>
   </body>

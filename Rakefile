@@ -1,7 +1,6 @@
 desc "deploy build directory to github pages"
 task :deploy do
   puts "## Deploying branch to Github Pages "
-  cp_r ".nojekyll", "build/.nojekyll"
   cd "build" do
     system "git add ."
     system "git add -u"
@@ -9,7 +8,7 @@ task :deploy do
     message = "Site updated at #{Time.now.utc}"
     system "git commit -m \"#{message}\""
     puts "\n## Pushing generated website"
-    system "git push origin master"
+    system "git push gh-pages"
     puts "\n## Github Pages deploy complete"
   end
 end

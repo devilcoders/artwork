@@ -21,12 +21,12 @@
 # page "/path/to/file.html", :layout => false
 #
 # With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
+page "/index.html", :layout => :home
 #
 # A path which all have the same layout
-with_layout :blog do
-  page "/examples/blog/*"
-end
+# with_layout :blog do
+#  page "/examples/blog/*"
+# end
 
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
@@ -47,11 +47,13 @@ end
 #   end
 # end
 
-set :css_dir, 'stylesheets'
+set :css_dir, 'assets/stylesheets'
 
-set :js_dir, 'javascripts'
+set :js_dir, 'assets/javascripts'
 
-set :images_dir, 'images'
+set :images_dir, 'assets/images'
+
+set :relative_links, true
 
 # Build-specific configuration
 configure :build do
@@ -65,7 +67,7 @@ configure :build do
   # activate :cache_buster
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Compress PNGs after build
   # First: gem install middleman-smusher
