@@ -708,208 +708,216 @@ img {
   [data-grid-container] {
     width: 300px; }
     /* line 126, artwork/shared/_grid.scss */
-    [data-grid-container] [data-grid-columns] {
-      padding: 0; }
-    /* line 131, artwork/shared/_grid.scss */
+    [data-grid-container] [data-grid-row] {
+      margin-bottom: 0; }
+    /* line 130, artwork/shared/_grid.scss */
+    [data-grid-container] [data-grid-columns], [data-grid-container] [data-grid-column] {
+      padding: 0;
+      margin-bottom: 1.5em; }
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="1"] {
       width: 100%; }
-    /* line 131, artwork/shared/_grid.scss */
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="2"] {
       width: 100%; }
-    /* line 131, artwork/shared/_grid.scss */
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="3"] {
       width: 100%; }
-    /* line 131, artwork/shared/_grid.scss */
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="4"] {
       width: 100%; }
-    /* line 131, artwork/shared/_grid.scss */
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="5"] {
       width: 100%; }
-    /* line 131, artwork/shared/_grid.scss */
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="6"] {
       width: 100%; }
-    /* line 131, artwork/shared/_grid.scss */
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="7"] {
       width: 100%; }
-    /* line 131, artwork/shared/_grid.scss */
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="8"] {
       width: 100%; }
-    /* line 131, artwork/shared/_grid.scss */
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="9"] {
       width: 100%; }
-    /* line 131, artwork/shared/_grid.scss */
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="10"] {
       width: 100%; }
-    /* line 131, artwork/shared/_grid.scss */
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="11"] {
       width: 100%; }
-    /* line 131, artwork/shared/_grid.scss */
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="12"] {
       width: 100%; }
-    /* line 131, artwork/shared/_grid.scss */
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="13"] {
       width: 100%; }
-    /* line 131, artwork/shared/_grid.scss */
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="14"] {
       width: 100%; }
-    /* line 131, artwork/shared/_grid.scss */
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="15"] {
       width: 100%; }
-    /* line 131, artwork/shared/_grid.scss */
+    /* line 136, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="16"] {
       width: 100%; }
-    /* line 137, artwork/shared/_grid.scss */
+    /* line 142, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="1"] {
       margin-left: 12.5; }
-    /* line 137, artwork/shared/_grid.scss */
+    /* line 142, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="2"] {
       margin-left: 18.75; }
-    /* line 137, artwork/shared/_grid.scss */
+    /* line 142, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="3"] {
       margin-left: 25; }
-    /* line 137, artwork/shared/_grid.scss */
+    /* line 142, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="4"] {
       margin-left: 31.25; }
-    /* line 137, artwork/shared/_grid.scss */
+    /* line 142, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="5"] {
       margin-left: 37.5; }
-    /* line 137, artwork/shared/_grid.scss */
+    /* line 142, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="6"] {
       margin-left: 43.75; }
-    /* line 137, artwork/shared/_grid.scss */
+    /* line 142, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="7"] {
       margin-left: 50; }
-    /* line 137, artwork/shared/_grid.scss */
+    /* line 142, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="8"] {
       margin-left: 56.25; }
-    /* line 137, artwork/shared/_grid.scss */
+    /* line 142, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="9"] {
       margin-left: 62.5; }
-    /* line 137, artwork/shared/_grid.scss */
+    /* line 142, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="10"] {
       margin-left: 68.75; }
-    /* line 137, artwork/shared/_grid.scss */
+    /* line 142, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="11"] {
       margin-left: 75; }
-    /* line 137, artwork/shared/_grid.scss */
+    /* line 142, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="12"] {
       margin-left: 81.25; }
-    /* line 137, artwork/shared/_grid.scss */
+    /* line 142, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="13"] {
       margin-left: 87.5; }
-    /* line 137, artwork/shared/_grid.scss */
+    /* line 142, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="14"] {
       margin-left: 93.75; }
-    /* line 137, artwork/shared/_grid.scss */
+    /* line 142, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="15"] {
       margin-left: 100; } }
 /* #Mobile (Landscape)
 ================================================== */
 /* Note: Design for a width of 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 152, artwork/shared/_grid.scss */
+  /* line 157, artwork/shared/_grid.scss */
   [data-grid-container] {
-    width: 100%; }
-    /* line 155, artwork/shared/_grid.scss */
-    [data-grid-container] [data-grid-columns] {
-      padding: 0; }
+    width: 90%; }
     /* line 160, artwork/shared/_grid.scss */
+    [data-grid-container] [data-grid-row] {
+      margin-bottom: 0; }
+    /* line 164, artwork/shared/_grid.scss */
+    [data-grid-container] [data-grid-columns], [data-grid-container] [data-grid-column] {
+      padding: 0;
+      margin-bottom: 1.5em; }
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="1"] {
       width: 100%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="2"] {
       width: 100%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="3"] {
       width: 100%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="4"] {
       width: 100%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="5"] {
       width: 100%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="6"] {
       width: 100%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="7"] {
       width: 100%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="8"] {
       width: 100%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="9"] {
       width: 100%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="10"] {
       width: 100%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="11"] {
       width: 100%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="12"] {
       width: 100%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="13"] {
       width: 100%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="14"] {
       width: 100%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="15"] {
       width: 100%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 170, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="16"] {
       width: 100%; }
-    /* line 166, artwork/shared/_grid.scss */
+    /* line 176, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="1"] {
       margin-left: 12.5; }
-    /* line 166, artwork/shared/_grid.scss */
+    /* line 176, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="2"] {
       margin-left: 18.75; }
-    /* line 166, artwork/shared/_grid.scss */
+    /* line 176, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="3"] {
       margin-left: 25; }
-    /* line 166, artwork/shared/_grid.scss */
+    /* line 176, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="4"] {
       margin-left: 31.25; }
-    /* line 166, artwork/shared/_grid.scss */
+    /* line 176, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="5"] {
       margin-left: 37.5; }
-    /* line 166, artwork/shared/_grid.scss */
+    /* line 176, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="6"] {
       margin-left: 43.75; }
-    /* line 166, artwork/shared/_grid.scss */
+    /* line 176, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="7"] {
       margin-left: 50; }
-    /* line 166, artwork/shared/_grid.scss */
+    /* line 176, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="8"] {
       margin-left: 56.25; }
-    /* line 166, artwork/shared/_grid.scss */
+    /* line 176, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="9"] {
       margin-left: 62.5; }
-    /* line 166, artwork/shared/_grid.scss */
+    /* line 176, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="10"] {
       margin-left: 68.75; }
-    /* line 166, artwork/shared/_grid.scss */
+    /* line 176, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="11"] {
       margin-left: 75; }
-    /* line 166, artwork/shared/_grid.scss */
+    /* line 176, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="12"] {
       margin-left: 81.25; }
-    /* line 166, artwork/shared/_grid.scss */
+    /* line 176, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="13"] {
       margin-left: 87.5; }
-    /* line 166, artwork/shared/_grid.scss */
+    /* line 176, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="14"] {
       margin-left: 93.75; }
-    /* line 166, artwork/shared/_grid.scss */
+    /* line 176, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="15"] {
       margin-left: 100; } }
 /* #Clearing
 ================================================== */
 /* Self Clearing Goodness */
-/* line 178, artwork/shared/_grid.scss */
+/* line 188, artwork/shared/_grid.scss */
 .container:after {
   content: "\0020";
   display: block;
@@ -919,7 +927,7 @@ img {
 
 /* Use clearfix class on parent to clear nested columns,
 or wrap each row of columns in a <div class="row"> */
-/* line 185, artwork/shared/_grid.scss */
+/* line 195, artwork/shared/_grid.scss */
 .clearfix:before,
 .clearfix:after,
 .row:before,
@@ -931,18 +939,18 @@ or wrap each row of columns in a <div class="row"> */
   width: 0;
   height: 0; }
 
-/* line 193, artwork/shared/_grid.scss */
+/* line 203, artwork/shared/_grid.scss */
 .row:after,
 .clearfix:after {
   clear: both; }
 
-/* line 196, artwork/shared/_grid.scss */
+/* line 206, artwork/shared/_grid.scss */
 .row,
 .clearfix {
   zoom: 1; }
 
 /* You can also use a <br class="clear" /> to clear columns */
-/* line 200, artwork/shared/_grid.scss */
+/* line 210, artwork/shared/_grid.scss */
 .clear {
   clear: both;
   display: block;
@@ -952,22 +960,18 @@ or wrap each row of columns in a <div class="row"> */
   height: 0; }
 
 /* line 3, artwork/shared/_typography.scss */
-html, body, div, span, object, iframe, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, var, fieldset, form, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
-  vertical-align: baseline; }
-
-/* line 7, artwork/shared/_typography.scss */
 body {
   font-size: 16px;
   line-height: 1.5em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400; }
 
-/* line 14, artwork/shared/_typography.scss */
+/* line 10, artwork/shared/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   margin: 0; }
 
-/* line 19, artwork/shared/_typography.scss */
+/* line 15, artwork/shared/_typography.scss */
 h1 {
   font-size: 3em;
   /* 48 / 16 */
@@ -976,7 +980,7 @@ h1 {
   margin-bottom: .5em;
   /* 24 / 48 */ }
 
-/* line 24, artwork/shared/_typography.scss */
+/* line 20, artwork/shared/_typography.scss */
 h2 {
   font-size: 2.25em;
   /* 36 / 16 */
@@ -985,7 +989,7 @@ h2 {
   margin-bottom: .6666666666666667em;
   /* 24 / 36 */ }
 
-/* line 29, artwork/shared/_typography.scss */
+/* line 25, artwork/shared/_typography.scss */
 h3 {
   font-size: 1.5em;
   /* 24 / 16 */
@@ -994,7 +998,7 @@ h3 {
   margin-bottom: 1em;
   /* 24 / 24 */ }
 
-/* line 34, artwork/shared/_typography.scss */
+/* line 30, artwork/shared/_typography.scss */
 h4 {
   font-size: 1.3125em;
   /* 21 / 16 */
@@ -1003,16 +1007,17 @@ h4 {
   margin-bottom: 1.142857142857143em;
   /* 24 / 21 */ }
 
-/* line 39, artwork/shared/_typography.scss */
+/* line 35, artwork/shared/_typography.scss */
 h5 {
   font-size: 1.125em;
   /* 18 / 16 */
   line-height: 1.333333333333333em;
   /* 24 / 18 */
+  max-height: 24px;
   margin-bottom: 1.333333333333333em;
   /* 24 / 18 */ }
 
-/* line 44, artwork/shared/_typography.scss */
+/* line 41, artwork/shared/_typography.scss */
 h6 {
   font-size: 1em;
   /* 16 / 16 */
@@ -1021,7 +1026,7 @@ h6 {
   margin-bottom: 1.5;
   /* 24 / 16 */ }
 
-/* line 49, artwork/shared/_typography.scss */
+/* line 46, artwork/shared/_typography.scss */
 p {
   font-size: 1em;
   /* 16 / 16 */
@@ -1030,19 +1035,19 @@ p {
   margin-bottom: 1.5em;
   /* 24 / 16 */ }
 
-/* line 56, artwork/shared/_typography.scss */
+/* line 53, artwork/shared/_typography.scss */
 ul.inline {
   list-style: none;
   margin: 0;
   padding: 0; }
-  /* line 61, artwork/shared/_typography.scss */
+  /* line 58, artwork/shared/_typography.scss */
   ul.inline li {
     display: inline-block;
     padding: 1.5em; }
-    /* line 65, artwork/shared/_typography.scss */
+    /* line 62, artwork/shared/_typography.scss */
     ul.inline li:first-child {
       padding-left: 0; }
-    /* line 68, artwork/shared/_typography.scss */
+    /* line 65, artwork/shared/_typography.scss */
     ul.inline li:last-child {
       padding-right: 0; }
 
@@ -1116,31 +1121,24 @@ a {
 
 /* line 73, website/_base.scss */
 .sample [data-grid-column] {
-  position: relative;
-  background-color: #ededed;
-  border-right: 10px solid white;
-  border-left: 10px solid white;
-  text-align: center; }
-  /* line 80, website/_base.scss */
-  .sample [data-grid-column]:first-child {
-    border-left: none;
-    padding-right: 0; }
-  /* line 84, website/_base.scss */
-  .sample [data-grid-column]:last-child {
-    border-right: none;
-    padding-left: 0; }
-  /* line 89, website/_base.scss */
+  position: relative; }
+  /* line 76, website/_base.scss */
   .sample [data-grid-column].code {
     font-family: 'Droid Sans Mono', sans-serif;
     text-align: center;
-    color: #727272; }
-  /* line 95, website/_base.scss */
-  .sample [data-grid-column]:hover {
-    background-color: #FF6600;
-    color: white; }
+    color: #727272;
+    background-color: #ededed;
+    border-right: 10px solid whitesmoke;
+    border-left: 10px solid whitesmoke; }
+    /* line 84, website/_base.scss */
+    .sample [data-grid-column].code:hover {
+      background-color: #FF6600;
+      color: white;
+      border-right: 10px solid #ff7214;
+      border-left: 10px solid #ff7214; }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 107, website/_base.scss */
+  /* line 98, website/_base.scss */
   .sample [data-grid-column] {
     border-left: none;
     border-right: none; } }
