@@ -9,25 +9,40 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title>A R T W O R K</title>
     
-    <link href="../assets/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="http://basehold.it/24/cccccc" media="screen" rel="stylesheet" type="text/css" />
+<link href="../assets/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />    
     <script src="../assets/javascripts/all.js" type="text/javascript"></script>
     <link href="../assets/images/favicon.png" rel="icon" type="image/png" />
   </head>
   
   <body class="components components_grid">
-    <div class="grid">
-      <header id="main-header" class="grid-pad">
-        <figure id="logo">
-          <img src="../assets/images/favicon.png" />
-        </figure>
-        <nav id="main-nav">
-          <ul class="inline">
-            <li><a href="../">Home</a></li>
-            <li><a href="./">Components</a></li>
-          </ul>
-        </nav>
-      </header>
-      <section class="grid"><div class="grid-pad"><hgroup><h1>Grid examples</h1><h3>12 columns grid example</h3></hgroup></div><div class="sample"><div class="grid-pad"><div class="code col-1-12">.col-1-12</div><div class="code col-1-12">.col-1-12</div><div class="code col-1-12">.col-1-12</div><div class="code col-1-12">.col-1-12</div><div class="code col-1-12">.col-1-12</div><div class="code col-1-12">.col-1-12</div><div class="code col-1-12">.col-1-12</div><div class="code col-1-12">.col-1-12</div><div class="code col-1-12">.col-1-12</div><div class="code col-1-12">.col-1-12</div><div class="code col-1-12">.col-1-12</div><div class="code col-1-12">.col-1-12</div></div></div></section>
+    <div data-grid-container>
+      <div data-grid-row>
+        <header id="main-header" class="grid-pad">
+          
+          <a id="logo" href="/"><img alt="ARTWORK :: SASS Framework For Rapid UI Prototyping" src="../assets/images/favicon.png" /></a>
+          
+          <nav id="main-nav">
+            <ul class="inline">
+              <li><a href="../">Home</a></li>
+              <li><a href="./">Components</a></li>
+            </ul>
+          </nav>
+          
+        </header>
+        
+      </div>
+      
+      <section id="main" data-grid-row>
+        
+        <aside id="sidebar" data-grid-column="4"><nav data-navigation-type="vertical"><ul><li><h5 data-menu-type="section-header">Basic Styles</h5><ul><li><a href="/components/grid.html">The Grid</a></li><li><a href="/components/typography.html">Typography</a></li><li><a href="/components/media.html">Media Queries</a></li><li><a href="/components/buttons.html">Buttons</a></li><li><a href="/components/forms.html">Forms</a></li><li><a href="/components/navigation.html">Navigation</a></li><li><a href="/components/tabs.html">Tabs</a></li><li><a href="/components/elements.html">Elements</a></li></ul></li></ul></nav></aside>
+        
+        <div id="content" data-grid-column="12">
+          <hgroup><h1>The Grid</h1><h3>16 columns grid example</h3></hgroup><div class="description"><p>Artwork's base grid is a variation of the Skeleton's grid system. The syntax is simple and it's effective cross browser, but the awesome part is that it also has the flexibility to go mobile like a champ. Go ahead, resize the browser and watch as the layout reacts!</p></div><div class="sample"><div data-grid-row="data-grid-row"><div class="code" data-grid-column="1">1</div><div class="code" data-grid-column="15">15</div></div><div data-grid-row="data-grid-row"><div class="code" data-grid-column="2">2</div><div class="code" data-grid-column="14">14</div></div><div data-grid-row="data-grid-row"><div class="code" data-grid-column="3">3</div><div class="code" data-grid-column="13">13</div></div><div data-grid-row="data-grid-row"><div class="code" data-grid-column="4">4</div><div class="code" data-grid-column="12">12</div></div><div data-grid-row="data-grid-row"><div class="code" data-grid-column="5">5</div><div class="code" data-grid-column="11">11</div></div><div data-grid-row="data-grid-row"><div class="code" data-grid-column="6">6</div><div class="code" data-grid-column="10">10</div></div><div data-grid-row="data-grid-row"><div class="code" data-grid-column="7">7</div><div class="code" data-grid-column="9">9</div></div><div data-grid-row="data-grid-row"><div class="code" data-grid-column="8">8</div><div class="code" data-grid-column="8">8</div></div><div data-grid-row="data-grid-row"><div class="code" data-grid-column="9">9</div><div class="code" data-grid-column="7">7</div></div><div data-grid-row="data-grid-row"><div class="code" data-grid-column="10">10</div><div class="code" data-grid-column="6">6</div></div><div data-grid-row="data-grid-row"><div class="code" data-grid-column="11">11</div><div class="code" data-grid-column="5">5</div></div><div data-grid-row="data-grid-row"><div class="code" data-grid-column="12">12</div><div class="code" data-grid-column="4">4</div></div><div data-grid-row="data-grid-row"><div class="code" data-grid-column="13">13</div><div class="code" data-grid-column="3">3</div></div><div data-grid-row="data-grid-row"><div class="code" data-grid-column="14">14</div><div class="code" data-grid-column="2">2</div></div><div data-grid-row="data-grid-row"><div class="code" data-grid-column="15">15</div><div class="code" data-grid-column="1">1</div></div><div data-grid-row="data-grid-row"><div class="code" data-grid-column="16">16</div></div></div>
+        </div>
+      </section>
+      
+      
     </div>
   </body>
 </html>
