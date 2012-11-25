@@ -32,7 +32,7 @@
 
     [data-grid-container] { 
       position: relative; 
-      width:    $grid-width; 
+      max-width:$grid-width; 
       margin:   0 auto; 
       padding:  0; 
 
@@ -72,7 +72,7 @@
 @media only screen and (max-width: 1023px) {
 
   [data-grid-container] { 
-    width: 960px;
+    max-width: 960px;
 
     @for $column from 1 through $grid-columns {
       [data-grid-column="#{$column}"] {
@@ -96,7 +96,7 @@
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
       [data-grid-container] { 
-        width: 768px;
+        max-width: 768px;
 
         @for $column from 1 through $grid-columns {
           [data-grid-column="#{$column}"] {
@@ -121,7 +121,7 @@
     @media only screen and (max-width: 767px) {
 
       [data-grid-container] { 
-        width: 300px;
+        max-width: 300px;
 
         [data-grid-row] {
           margin-bottom: 0;
@@ -155,7 +155,7 @@
     @media only screen and (min-width: 480px) and (max-width: 767px) {
 
       [data-grid-container] { 
-        width: 90%;
+        max-width: 90%;
 
         [data-grid-row] {
           margin-bottom: 0;
