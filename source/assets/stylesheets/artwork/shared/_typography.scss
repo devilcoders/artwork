@@ -1,22 +1,55 @@
 @import url('http://fonts.googleapis.com/css?family=Droid+Sans+Mono|Open+Sans:400,600&subset=latin,cyrillic');
 
-/*
-*
-* Zoomable baseline grid
-* type size presets
-*
-*/
+html,body,div,span,object,iframe,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,var,fieldset,form,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video {
+  vertical-align:baseline;
+}
 
 body {
-  /* 16px / 24px */
   font-size: $font-size;
-  line-height: 1em;
+  line-height: $line-height + em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
+  margin: 0;
+}
+
+h1 {
+    font-size: 3em; /* 48 / 16 */
+    line-height: 1em; /* 48 / 48 */
+    margin-bottom: .5em; /* 24 / 48 */
+}
+h2 {
+    font-size: 2.25em; /* 36 / 16 */
+    line-height: 1.333333333333333em; /* 48 / 36 */
+    margin-bottom: .6666666666666667em; /* 24 / 36 */
+}
+h3 {
+    font-size: 1.5em; /* 24 / 16 */
+    line-height: 1em; /* 24 / 24 */
+    margin-bottom: 1em; /* 24 / 24 */
+}
+h4 {
+    font-size: 1.3125em; /* 21 / 16 */
+    line-height: 1.142857142857143em; /* 24 / 21 */
+    margin-bottom: 1.142857142857143em; /* 24 / 21 */
+}
+h5 {
+    font-size: 1.125em; /* 18 / 16 */
+    line-height: 1.333333333333333em; /* 24 / 18 */
+    margin-bottom: 1.333333333333333em; /* 24 / 18 */
+}
+h6 {
+    font-size: 1em; /* 16 / 16 */
+    line-height: $line-height; /* 24 / 16 */
+    margin-bottom: $line-height; /* 24 / 16 */
+}
+p {
+    font-size: 1em; /* 16 / 16 */
+    line-height: $line-height; /* 24 / 16 */
+    margin-bottom: $line-height * 1em; /* 24 / 16 */
 }
 
 ul {
@@ -27,7 +60,7 @@ ul {
 
     li {
       display: inline-block;
-      padding: 10px;
+      padding: $line-height * 1em;
 
       &:first-child {
         padding-left: 0;

@@ -9,25 +9,39 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= data.page.title || "A R T W O R K" %></title>
     
-    <%= stylesheet_link_tag "all" %>
+    <%= stylesheet_link_tag "http://basehold.it/24/cccccc", "all" %>    
     <%= javascript_include_tag  "all" %>
     <%= favicon_tag 'favicon.png' %>
   </head>
   
   <body class="<%= page_classes %>">
-    <div class="grid">
-      <header id="main-header" class="grid-pad">
-        <figure id="logo">
-          <%= image_tag "favicon.png"  %>
-        </figure>
-        <nav id="main-nav">
-          <ul class="inline">
-            <li><%= link_to 'Home', '/index.html' %></li>
-            <li><%= link_to 'Components', '/components/index.html' %></li>
-          </ul>
-        </nav>
-      </header>
-      <%= yield %>
+    <div data-grid-container>
+      <div data-grid-row>
+        <header id="main-header" class="grid-pad">
+          
+          <%= link_to image_tag("favicon.png", alt: "ARTWORK :: SASS Framework For Rapid UI Prototyping"), '/', id: 'logo'  %>
+          
+          <nav id="main-nav">
+            <ul class="inline">
+              <li><%= link_to 'Home', '/index.html' %></li>
+              <li><%= link_to 'Components', '/components/index.html' %></li>
+            </ul>
+          </nav>
+          
+        </header>
+        
+      </div>
+      
+      <section id="main" data-grid-row>
+        
+        <%= partial 'layouts/sidebar' %>
+        
+        <div id="content" data-grid-column="12">
+          <%= yield %>
+        </div>
+      </section>
+      
+      
     </div>
   </body>
 </html>

@@ -1,0 +1,11 @@
+nav[data-navigation-type="vertical"] {
+  ul {
+    margin: 0;
+    padding: 0 !important;
+    -webkit-padding-start: 0px !important;
+
+    ul {
+      list-style: inside;
+    }
+  }
+}

@@ -1,5 +1,10 @@
-$font-size: 1em;
+//
+// Important numbers
+//
 
-$grid-max-width: 1140px;
-$grid-min-width: 755px;
-$grid-gutter: 20px;
+$grid-width:         1140px !default;
+$grid-columns:       16    !default;
+$grid-column-gutter: 10px  !default;
+
+$font-size:          16px  !default;
+$line-height:        1.5   !default;

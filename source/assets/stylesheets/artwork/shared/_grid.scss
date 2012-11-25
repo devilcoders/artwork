@@ -1,147 +1,207 @@
 /*
-  Simple Grid
-  Learn More - http://dallasbass.com/simple-grid-a-lightweight-responsive-css-grid/
-  Project Page - http://thisisdallas.github.com/Simple-Grid/
-  Author - Dallas Bass
-  Site - dallasbass.com
+* Reworked version of Skeleton V1.2
+*
+*-------------------------------------
+*-------------------------------------
+*
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
 */
 
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
-body {
-  margin: 0px;
-}
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
 
-[class*='col-'] {
-  float: left;
-  padding-right: $grid-gutter;
-}
 
-[class*='col-']:last-of-type {
-  padding-right: 0px;
-}
 
-.grid {
-  width: 100%;
-  max-width: $grid-max-width;
-  min-width: $grid-min-width;
-  margin: 0 auto;
-  overflow: hidden;
-}
+/* #Base 960 Grid
+================================================== */
 
-.grid:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+    *, *:before, *:after { 
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; 
+    }
 
-.grid-pad {
-  padding: $grid-gutter 0 0px $grid-gutter;
-}
+    [data-grid-container] { 
+      position: relative; 
+      width:    $grid-width; 
+      margin:   0 auto; 
+      padding:  0; 
 
-.grid-pad > [class*='col-']:last-of-type {
-  padding-right: $grid-gutter;
-}
+      [data-grid-column], [data-grid-columns] {
+        float:    left; 
+        display:  inline; 
+        padding:  0 $grid-column-gutter;
+      }
 
-/* Content Columns */
+      [data-grid-row] {
+        margin:   0 auto 1.5em;
+        overflow: hidden;
 
-.col-1-1 {
-  width: 100%;
-}
-.col-2-3, .col-8-12 {
-  width: 66.66%;
-}
+        [data-grid-column]:first-child {
+          padding-left: 0;
+        }
+        [data-grid-column]:last-child {
+          padding-right: 0;
+        }
+      }
 
-.col-1-2, .col-6-12 {
-  width: 50%;
-}
+      @for $column from 1 through $grid-columns {
+        [data-grid-column="#{$column}"] {
+          width: (100/$grid-columns) * $column * 1%;
+        }
+      }
 
-.col-1-3, .col-4-12 {
-  width: 33.33%;
-}
+      @for $column from 1 through ($grid-columns - 1) {
+        [data-grid-offset="#{$column}"] {
+          margin-left: (100/$grid-columns) + ((100/$grid-columns) * $column);
+        }
+      }
+    }
+    
+    
 
-.col-1-4, .col-3-12 {
-  width: 25%;
-}
+@media only screen and (max-width: 1023px) {
 
-.col-1-5 {
-  width: 20%;
-}
+  [data-grid-container] { 
+    width: 960px;
 
-.col-1-6, .col-2-12 {
-  width: 16.667%;
-}
+    @for $column from 1 through $grid-columns {
+      [data-grid-column="#{$column}"] {
+        width: (100/$grid-columns) * $column;
+      }
+    }
 
-.col-1-7 {
-  width: 14.28%;
-}
-
-.col-1-8 {
-  width: 12.5%;
-}
-
-.col-1-9 {
-  width: 11.1%;
-}
-
-.col-1-10 {
-  width: 10%;
-}
-
-.col-1-11 {
-  width: 9.09%;
-}
-
-.col-1-12 {
-  width: 8.33%
-}
-
-/* Layout Columns */
-
-.col-11-12 {
-  width: 91.66%
-}
-
-.col-10-12 {
-  width: 83.333%;
-}
-
-.col-9-12 {
-  width: 75%;
-}
-
-.col-5-12 {
-  width: 41.66%;
-}
-
-.col-7-12 {
-  width: 58.33%
-}
-
-@media handheld, only screen and (max-width: 767px) {
-
-  
-  .grid {
-    width: 100%;
-    min-width: 0;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    @for $column from 1 through ($grid-columns - 1) {
+      [data-grid-offset="#{$column}"] {
+        margin-left: (100/$grid-columns) + ((100/$grid-columns) * $column);
+      }
+    }
   }
-  
-  [class*='col-'] {
-    width: auto;
-    float: none;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: $grid-gutter/2;
-    margin-bottom: $grid-gutter/2;
-    padding-left: $grid-gutter;
-    padding-right: $grid-gutter;
-  }
+
 }
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      [data-grid-container] { 
+        width: 768px;
+
+        @for $column from 1 through $grid-columns {
+          [data-grid-column="#{$column}"] {
+            width: (100/$grid-columns) * $column;
+          }
+        }
+
+        @for $column from 1 through ($grid-columns - 1) {
+          [data-grid-offset="#{$column}"] {
+            margin-left: (100/$grid-columns) + ((768px/$grid-columns) * $column);
+          }
+        }
+      }
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+
+      [data-grid-container] { 
+        width: 300px;
+
+        [data-grid-columns] {
+          padding:  0;
+        }
+
+        @for $column from 1 through $grid-columns {
+          [data-grid-column="#{$column}"] {
+            width: 100%;
+          }
+        }
+
+        @for $column from 1 through ($grid-columns - 1) {
+          [data-grid-offset="#{$column}"] {
+            margin-left: (100/$grid-columns) + ((100/$grid-columns) * $column);
+          }
+        }
+      }
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+      [data-grid-container] { 
+        width: 100%;
+
+        [data-grid-columns] {
+          padding:  0;
+        }
+
+        @for $column from 1 through $grid-columns {
+          [data-grid-column="#{$column}"] {
+            width: 100%;
+          }
+        }
+
+        @for $column from 1 through ($grid-columns - 1) {
+          [data-grid-offset="#{$column}"] {
+            margin-left: (100/$grid-columns) + ((100/$grid-columns) * $column);
+          }
+        }
+      }
+    }
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
