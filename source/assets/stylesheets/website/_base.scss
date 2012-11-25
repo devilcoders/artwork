@@ -72,31 +72,22 @@ a {
   
     [data-grid-column] {
       position: relative;
-      background-color: #ededed;
-      border-right: 10px solid white;
-      border-left: 10px solid white;
-      text-align: center;
-
-      &:first-child {
-        border-left: none;
-        padding-right: 0;
-      }
-      &:last-child {
-        border-right: none;
-        padding-left: 0;
-      }
 
       &.code {
         font-family: 'Droid Sans Mono', sans-serif;
         text-align: center;
         color: #727272;
-      }
+        background-color: #ededed;
+        border-right: 10px solid lighten(#ededed, 3);
+        border-left: 10px solid lighten(#ededed, 3);
 
-      &:hover {
-        background-color: #FF6600;
-        color: white;
+        &:hover {
+          background-color: #FF6600;
+          color: white;
+          border-right: 10px solid lighten(#ff6600, 4);
+          border-left: 10px solid lighten(#ff6600, 4);
+        }
       }
-
 
     }
   

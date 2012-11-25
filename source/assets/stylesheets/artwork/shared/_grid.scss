@@ -123,8 +123,13 @@
       [data-grid-container] { 
         width: 300px;
 
-        [data-grid-columns] {
+        [data-grid-row] {
+          margin-bottom: 0;
+        }
+
+        [data-grid-columns], [data-grid-column] {
           padding:  0;
+          margin-bottom: 1.5em;
         }
 
         @for $column from 1 through $grid-columns {
@@ -150,10 +155,15 @@
     @media only screen and (min-width: 480px) and (max-width: 767px) {
 
       [data-grid-container] { 
-        width: 100%;
+        width: 90%;
 
-        [data-grid-columns] {
+        [data-grid-row] {
+          margin-bottom: 0;
+        }
+
+        [data-grid-columns], [data-grid-column] {
           padding:  0;
+          margin-bottom: 1.5em;
         }
 
         @for $column from 1 through $grid-columns {
