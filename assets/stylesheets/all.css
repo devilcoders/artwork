@@ -391,7 +391,7 @@ img {
 /* line 33, artwork/shared/_grid.scss */
 [data-grid-container] {
   position: relative;
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0; }
   /* line 39, artwork/shared/_grid.scss */
@@ -506,7 +506,7 @@ img {
 @media only screen and (max-width: 1023px) {
   /* line 74, artwork/shared/_grid.scss */
   [data-grid-container] {
-    width: 960px; }
+    max-width: 960px; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="1"] {
       width: 6.25; }
@@ -606,7 +606,7 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   /* line 98, artwork/shared/_grid.scss */
   [data-grid-container] {
-    width: 768px; }
+    max-width: 768px; }
     /* line 102, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="1"] {
       width: 6.25; }
@@ -706,7 +706,7 @@ img {
 @media only screen and (max-width: 767px) {
   /* line 123, artwork/shared/_grid.scss */
   [data-grid-container] {
-    width: 300px; }
+    max-width: 300px; }
     /* line 126, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-row] {
       margin-bottom: 0; }
@@ -813,7 +813,7 @@ img {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   /* line 157, artwork/shared/_grid.scss */
   [data-grid-container] {
-    width: 90%; }
+    max-width: 90%; }
     /* line 160, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-row] {
       margin-bottom: 0; }
@@ -1091,38 +1091,40 @@ h1 {
   /* line 36, website/_base.scss */
   #logo h1 {
     font-size: 172px;
-    margin-bottom: 0;
-    line-height: 120px; }
-    /* line 41, website/_base.scss */
+    margin-bottom: 0.2em;
+    line-height: 120px;
+    margin-top: 1em; }
+    /* line 42, website/_base.scss */
     #logo h1 .part-1 {
       color: #FF6600; }
-    /* line 44, website/_base.scss */
+    /* line 45, website/_base.scss */
     #logo h1 .part-2 {
       color: #7CB490; }
-  /* line 49, website/_base.scss */
+  /* line 50, website/_base.scss */
   #logo h2 {
     text-transform: uppercase;
     letter-spacing: 10px;
-    color: #ccc; }
+    color: #ccc;
+    font-size: 20px; }
 
-/* line 56, website/_base.scss */
+/* line 58, website/_base.scss */
 a {
   text-decoration: none;
   color: #ccc; }
-  /* line 60, website/_base.scss */
+  /* line 62, website/_base.scss */
   a:hover {
     color: #7CB490; }
 
-/* line 65, website/_base.scss */
+/* line 67, website/_base.scss */
 #main-menu {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 10em;
   font-size: 15px; }
 
-/* line 73, website/_base.scss */
+/* line 75, website/_base.scss */
 .sample [data-grid-column] {
   position: relative; }
-  /* line 76, website/_base.scss */
+  /* line 78, website/_base.scss */
   .sample [data-grid-column].code {
     font-family: 'Droid Sans Mono', sans-serif;
     text-align: center;
@@ -1130,7 +1132,7 @@ a {
     background-color: #ededed;
     border-right: 10px solid whitesmoke;
     border-left: 10px solid whitesmoke; }
-    /* line 84, website/_base.scss */
+    /* line 86, website/_base.scss */
     .sample [data-grid-column].code:hover {
       background-color: #FF6600;
       color: white;
@@ -1138,7 +1140,7 @@ a {
       border-left: 10px solid #ff7214; }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 98, website/_base.scss */
+  /* line 100, website/_base.scss */
   .sample [data-grid-column] {
     border-left: none;
     border-right: none; } }

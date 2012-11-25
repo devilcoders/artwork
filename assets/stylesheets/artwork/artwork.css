@@ -391,7 +391,7 @@ img {
 /* line 33, artwork/shared/_grid.scss */
 [data-grid-container] {
   position: relative;
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0; }
   /* line 39, artwork/shared/_grid.scss */
@@ -506,7 +506,7 @@ img {
 @media only screen and (max-width: 1023px) {
   /* line 74, artwork/shared/_grid.scss */
   [data-grid-container] {
-    width: 960px; }
+    max-width: 960px; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="1"] {
       width: 6.25; }
@@ -606,7 +606,7 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   /* line 98, artwork/shared/_grid.scss */
   [data-grid-container] {
-    width: 768px; }
+    max-width: 768px; }
     /* line 102, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="1"] {
       width: 6.25; }
@@ -706,7 +706,7 @@ img {
 @media only screen and (max-width: 767px) {
   /* line 123, artwork/shared/_grid.scss */
   [data-grid-container] {
-    width: 300px; }
+    max-width: 300px; }
     /* line 126, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-row] {
       margin-bottom: 0; }
@@ -813,7 +813,7 @@ img {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   /* line 157, artwork/shared/_grid.scss */
   [data-grid-container] {
-    width: 90%; }
+    max-width: 90%; }
     /* line 160, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-row] {
       margin-bottom: 0; }
