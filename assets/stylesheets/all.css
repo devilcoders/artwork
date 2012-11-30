@@ -397,111 +397,126 @@ img {
   /* line 39, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column], [data-grid-container] [data-grid-columns] {
     float: left;
-    display: inline;
-    padding: 0 10px; }
-  /* line 45, artwork/shared/_grid.scss */
+    display: inline; }
+  /* line 44, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-row] {
     margin: 0 auto 1.5em;
     overflow: hidden; }
-    /* line 49, artwork/shared/_grid.scss */
+    /* line 48, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-row] [data-grid-column]:first-child {
       padding-left: 0; }
-    /* line 52, artwork/shared/_grid.scss */
+    /* line 51, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-row] [data-grid-column]:last-child {
       padding-right: 0; }
-  /* line 58, artwork/shared/_grid.scss */
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="1"] {
-    width: 6.25%; }
-  /* line 58, artwork/shared/_grid.scss */
+    width: 6.25%;
+    padding: 0 0.87719298%; }
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="2"] {
-    width: 12.5%; }
-  /* line 58, artwork/shared/_grid.scss */
+    width: 12.5%;
+    padding: 0 0.87719298%; }
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="3"] {
-    width: 18.75%; }
-  /* line 58, artwork/shared/_grid.scss */
+    width: 18.75%;
+    padding: 0 0.87719298%; }
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="4"] {
-    width: 25%; }
-  /* line 58, artwork/shared/_grid.scss */
+    width: 25%;
+    padding: 0 0.87719298%; }
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="5"] {
-    width: 31.25%; }
-  /* line 58, artwork/shared/_grid.scss */
+    width: 31.25%;
+    padding: 0 0.87719298%; }
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="6"] {
-    width: 37.5%; }
-  /* line 58, artwork/shared/_grid.scss */
+    width: 37.5%;
+    padding: 0 0.87719298%; }
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="7"] {
-    width: 43.75%; }
-  /* line 58, artwork/shared/_grid.scss */
+    width: 43.75%;
+    padding: 0 0.87719298%; }
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="8"] {
-    width: 50%; }
-  /* line 58, artwork/shared/_grid.scss */
+    width: 50%;
+    padding: 0 0.87719298%; }
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="9"] {
-    width: 56.25%; }
-  /* line 58, artwork/shared/_grid.scss */
+    width: 56.25%;
+    padding: 0 0.87719298%; }
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="10"] {
-    width: 62.5%; }
-  /* line 58, artwork/shared/_grid.scss */
+    width: 62.5%;
+    padding: 0 0.87719298%; }
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="11"] {
-    width: 68.75%; }
-  /* line 58, artwork/shared/_grid.scss */
+    width: 68.75%;
+    padding: 0 0.87719298%; }
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="12"] {
-    width: 75%; }
-  /* line 58, artwork/shared/_grid.scss */
+    width: 75%;
+    padding: 0 0.87719298%; }
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="13"] {
-    width: 81.25%; }
-  /* line 58, artwork/shared/_grid.scss */
+    width: 81.25%;
+    padding: 0 0.87719298%; }
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="14"] {
-    width: 87.5%; }
-  /* line 58, artwork/shared/_grid.scss */
+    width: 87.5%;
+    padding: 0 0.87719298%; }
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="15"] {
-    width: 93.75%; }
-  /* line 58, artwork/shared/_grid.scss */
+    width: 93.75%;
+    padding: 0 0.87719298%; }
+  /* line 57, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-column="16"] {
-    width: 100%; }
+    width: 100%;
+    padding: 0 0.87719298%; }
   /* line 64, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-offset="1"] {
-    margin-left: 12.5; }
+    margin-left: 12.5%; }
   /* line 64, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-offset="2"] {
-    margin-left: 18.75; }
+    margin-left: 18.75%; }
   /* line 64, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-offset="3"] {
-    margin-left: 25; }
+    margin-left: 25%; }
   /* line 64, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-offset="4"] {
-    margin-left: 31.25; }
+    margin-left: 31.25%; }
   /* line 64, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-offset="5"] {
-    margin-left: 37.5; }
+    margin-left: 37.5%; }
   /* line 64, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-offset="6"] {
-    margin-left: 43.75; }
+    margin-left: 43.75%; }
   /* line 64, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-offset="7"] {
-    margin-left: 50; }
+    margin-left: 50%; }
   /* line 64, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-offset="8"] {
-    margin-left: 56.25; }
+    margin-left: 56.25%; }
   /* line 64, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-offset="9"] {
-    margin-left: 62.5; }
+    margin-left: 62.5%; }
   /* line 64, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-offset="10"] {
-    margin-left: 68.75; }
+    margin-left: 68.75%; }
   /* line 64, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-offset="11"] {
-    margin-left: 75; }
+    margin-left: 75%; }
   /* line 64, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-offset="12"] {
-    margin-left: 81.25; }
+    margin-left: 81.25%; }
   /* line 64, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-offset="13"] {
-    margin-left: 87.5; }
+    margin-left: 87.5%; }
   /* line 64, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-offset="14"] {
-    margin-left: 93.75; }
+    margin-left: 93.75%; }
   /* line 64, artwork/shared/_grid.scss */
   [data-grid-container] [data-grid-offset="15"] {
-    margin-left: 100; }
+    margin-left: 100%; }
 
 @media only screen and (max-width: 1023px) {
   /* line 74, artwork/shared/_grid.scss */
@@ -509,415 +524,447 @@ img {
     max-width: 960px; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="1"] {
-      width: 6.25; }
+      width: 6.25;
+      padding: 0 1.04166667%; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="2"] {
-      width: 12.5; }
+      width: 12.5;
+      padding: 0 1.04166667%; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="3"] {
-      width: 18.75; }
+      width: 18.75;
+      padding: 0 1.04166667%; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="4"] {
-      width: 25; }
+      width: 25;
+      padding: 0 1.04166667%; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="5"] {
-      width: 31.25; }
+      width: 31.25;
+      padding: 0 1.04166667%; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="6"] {
-      width: 37.5; }
+      width: 37.5;
+      padding: 0 1.04166667%; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="7"] {
-      width: 43.75; }
+      width: 43.75;
+      padding: 0 1.04166667%; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="8"] {
-      width: 50; }
+      width: 50;
+      padding: 0 1.04166667%; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="9"] {
-      width: 56.25; }
+      width: 56.25;
+      padding: 0 1.04166667%; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="10"] {
-      width: 62.5; }
+      width: 62.5;
+      padding: 0 1.04166667%; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="11"] {
-      width: 68.75; }
+      width: 68.75;
+      padding: 0 1.04166667%; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="12"] {
-      width: 75; }
+      width: 75;
+      padding: 0 1.04166667%; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="13"] {
-      width: 81.25; }
+      width: 81.25;
+      padding: 0 1.04166667%; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="14"] {
-      width: 87.5; }
+      width: 87.5;
+      padding: 0 1.04166667%; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="15"] {
-      width: 93.75; }
+      width: 93.75;
+      padding: 0 1.04166667%; }
     /* line 78, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="16"] {
-      width: 100; }
-    /* line 84, artwork/shared/_grid.scss */
+      width: 100;
+      padding: 0 1.04166667%; }
+    /* line 85, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="1"] {
       margin-left: 12.5; }
-    /* line 84, artwork/shared/_grid.scss */
+    /* line 85, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="2"] {
       margin-left: 18.75; }
-    /* line 84, artwork/shared/_grid.scss */
+    /* line 85, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="3"] {
       margin-left: 25; }
-    /* line 84, artwork/shared/_grid.scss */
+    /* line 85, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="4"] {
       margin-left: 31.25; }
-    /* line 84, artwork/shared/_grid.scss */
+    /* line 85, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="5"] {
       margin-left: 37.5; }
-    /* line 84, artwork/shared/_grid.scss */
+    /* line 85, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="6"] {
       margin-left: 43.75; }
-    /* line 84, artwork/shared/_grid.scss */
+    /* line 85, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="7"] {
       margin-left: 50; }
-    /* line 84, artwork/shared/_grid.scss */
+    /* line 85, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="8"] {
       margin-left: 56.25; }
-    /* line 84, artwork/shared/_grid.scss */
+    /* line 85, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="9"] {
       margin-left: 62.5; }
-    /* line 84, artwork/shared/_grid.scss */
+    /* line 85, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="10"] {
       margin-left: 68.75; }
-    /* line 84, artwork/shared/_grid.scss */
+    /* line 85, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="11"] {
       margin-left: 75; }
-    /* line 84, artwork/shared/_grid.scss */
+    /* line 85, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="12"] {
       margin-left: 81.25; }
-    /* line 84, artwork/shared/_grid.scss */
+    /* line 85, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="13"] {
       margin-left: 87.5; }
-    /* line 84, artwork/shared/_grid.scss */
+    /* line 85, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="14"] {
       margin-left: 93.75; }
-    /* line 84, artwork/shared/_grid.scss */
+    /* line 85, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="15"] {
       margin-left: 100; } }
 /* #Tablet (Portrait)
 ================================================== */
 /* Note: Design for a width of 768px */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-  /* line 98, artwork/shared/_grid.scss */
+  /* line 99, artwork/shared/_grid.scss */
   [data-grid-container] {
     max-width: 768px; }
-    /* line 102, artwork/shared/_grid.scss */
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="1"] {
-      width: 6.25; }
-    /* line 102, artwork/shared/_grid.scss */
+      width: 6.25;
+      padding: 0 1.30208333%; }
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="2"] {
-      width: 12.5; }
-    /* line 102, artwork/shared/_grid.scss */
+      width: 12.5;
+      padding: 0 1.30208333%; }
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="3"] {
-      width: 18.75; }
-    /* line 102, artwork/shared/_grid.scss */
+      width: 18.75;
+      padding: 0 1.30208333%; }
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="4"] {
-      width: 25; }
-    /* line 102, artwork/shared/_grid.scss */
+      width: 25;
+      padding: 0 1.30208333%; }
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="5"] {
-      width: 31.25; }
-    /* line 102, artwork/shared/_grid.scss */
+      width: 31.25;
+      padding: 0 1.30208333%; }
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="6"] {
-      width: 37.5; }
-    /* line 102, artwork/shared/_grid.scss */
+      width: 37.5;
+      padding: 0 1.30208333%; }
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="7"] {
-      width: 43.75; }
-    /* line 102, artwork/shared/_grid.scss */
+      width: 43.75;
+      padding: 0 1.30208333%; }
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="8"] {
-      width: 50; }
-    /* line 102, artwork/shared/_grid.scss */
+      width: 50;
+      padding: 0 1.30208333%; }
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="9"] {
-      width: 56.25; }
-    /* line 102, artwork/shared/_grid.scss */
+      width: 56.25;
+      padding: 0 1.30208333%; }
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="10"] {
-      width: 62.5; }
-    /* line 102, artwork/shared/_grid.scss */
+      width: 62.5;
+      padding: 0 1.30208333%; }
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="11"] {
-      width: 68.75; }
-    /* line 102, artwork/shared/_grid.scss */
+      width: 68.75;
+      padding: 0 1.30208333%; }
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="12"] {
-      width: 75; }
-    /* line 102, artwork/shared/_grid.scss */
+      width: 75;
+      padding: 0 1.30208333%; }
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="13"] {
-      width: 81.25; }
-    /* line 102, artwork/shared/_grid.scss */
+      width: 81.25;
+      padding: 0 1.30208333%; }
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="14"] {
-      width: 87.5; }
-    /* line 102, artwork/shared/_grid.scss */
+      width: 87.5;
+      padding: 0 1.30208333%; }
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="15"] {
-      width: 93.75; }
-    /* line 102, artwork/shared/_grid.scss */
+      width: 93.75;
+      padding: 0 1.30208333%; }
+    /* line 103, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="16"] {
-      width: 100; }
-    /* line 108, artwork/shared/_grid.scss */
+      width: 100;
+      padding: 0 1.30208333%; }
+    /* line 110, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="1"] {
       margin-left: 54.25px; }
-    /* line 108, artwork/shared/_grid.scss */
+    /* line 110, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="2"] {
       margin-left: 102.25px; }
-    /* line 108, artwork/shared/_grid.scss */
+    /* line 110, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="3"] {
       margin-left: 150.25px; }
-    /* line 108, artwork/shared/_grid.scss */
+    /* line 110, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="4"] {
       margin-left: 198.25px; }
-    /* line 108, artwork/shared/_grid.scss */
+    /* line 110, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="5"] {
       margin-left: 246.25px; }
-    /* line 108, artwork/shared/_grid.scss */
+    /* line 110, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="6"] {
       margin-left: 294.25px; }
-    /* line 108, artwork/shared/_grid.scss */
+    /* line 110, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="7"] {
       margin-left: 342.25px; }
-    /* line 108, artwork/shared/_grid.scss */
+    /* line 110, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="8"] {
       margin-left: 390.25px; }
-    /* line 108, artwork/shared/_grid.scss */
+    /* line 110, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="9"] {
       margin-left: 438.25px; }
-    /* line 108, artwork/shared/_grid.scss */
+    /* line 110, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="10"] {
       margin-left: 486.25px; }
-    /* line 108, artwork/shared/_grid.scss */
+    /* line 110, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="11"] {
       margin-left: 534.25px; }
-    /* line 108, artwork/shared/_grid.scss */
+    /* line 110, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="12"] {
       margin-left: 582.25px; }
-    /* line 108, artwork/shared/_grid.scss */
+    /* line 110, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="13"] {
       margin-left: 630.25px; }
-    /* line 108, artwork/shared/_grid.scss */
+    /* line 110, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="14"] {
       margin-left: 678.25px; }
-    /* line 108, artwork/shared/_grid.scss */
+    /* line 110, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="15"] {
       margin-left: 726.25px; } }
 /*  #Mobile (Portrait)
 ================================================== */
 /* Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
-  /* line 123, artwork/shared/_grid.scss */
+  /* line 125, artwork/shared/_grid.scss */
   [data-grid-container] {
     max-width: 300px; }
-    /* line 126, artwork/shared/_grid.scss */
+    /* line 128, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-row] {
       margin-bottom: 0; }
-    /* line 130, artwork/shared/_grid.scss */
+    /* line 132, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-columns], [data-grid-container] [data-grid-column] {
       padding: 0;
       margin-bottom: 1.5em; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="1"] {
       width: 100%; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="2"] {
       width: 100%; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="3"] {
       width: 100%; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="4"] {
       width: 100%; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="5"] {
       width: 100%; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="6"] {
       width: 100%; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="7"] {
       width: 100%; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="8"] {
       width: 100%; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="9"] {
       width: 100%; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="10"] {
       width: 100%; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="11"] {
       width: 100%; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="12"] {
       width: 100%; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="13"] {
       width: 100%; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="14"] {
       width: 100%; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="15"] {
       width: 100%; }
-    /* line 136, artwork/shared/_grid.scss */
+    /* line 138, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="16"] {
       width: 100%; }
-    /* line 142, artwork/shared/_grid.scss */
+    /* line 144, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="1"] {
       margin-left: 12.5; }
-    /* line 142, artwork/shared/_grid.scss */
+    /* line 144, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="2"] {
       margin-left: 18.75; }
-    /* line 142, artwork/shared/_grid.scss */
+    /* line 144, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="3"] {
       margin-left: 25; }
-    /* line 142, artwork/shared/_grid.scss */
+    /* line 144, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="4"] {
       margin-left: 31.25; }
-    /* line 142, artwork/shared/_grid.scss */
+    /* line 144, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="5"] {
       margin-left: 37.5; }
-    /* line 142, artwork/shared/_grid.scss */
+    /* line 144, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="6"] {
       margin-left: 43.75; }
-    /* line 142, artwork/shared/_grid.scss */
+    /* line 144, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="7"] {
       margin-left: 50; }
-    /* line 142, artwork/shared/_grid.scss */
+    /* line 144, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="8"] {
       margin-left: 56.25; }
-    /* line 142, artwork/shared/_grid.scss */
+    /* line 144, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="9"] {
       margin-left: 62.5; }
-    /* line 142, artwork/shared/_grid.scss */
+    /* line 144, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="10"] {
       margin-left: 68.75; }
-    /* line 142, artwork/shared/_grid.scss */
+    /* line 144, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="11"] {
       margin-left: 75; }
-    /* line 142, artwork/shared/_grid.scss */
+    /* line 144, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="12"] {
       margin-left: 81.25; }
-    /* line 142, artwork/shared/_grid.scss */
+    /* line 144, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="13"] {
       margin-left: 87.5; }
-    /* line 142, artwork/shared/_grid.scss */
+    /* line 144, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="14"] {
       margin-left: 93.75; }
-    /* line 142, artwork/shared/_grid.scss */
+    /* line 144, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="15"] {
       margin-left: 100; } }
 /* #Mobile (Landscape)
 ================================================== */
 /* Note: Design for a width of 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 157, artwork/shared/_grid.scss */
+  /* line 159, artwork/shared/_grid.scss */
   [data-grid-container] {
     max-width: 90%; }
-    /* line 160, artwork/shared/_grid.scss */
+    /* line 162, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-row] {
       margin-bottom: 0; }
-    /* line 164, artwork/shared/_grid.scss */
+    /* line 166, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-columns], [data-grid-container] [data-grid-column] {
       padding: 0;
       margin-bottom: 1.5em; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="1"] {
       width: 100%; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="2"] {
       width: 100%; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="3"] {
       width: 100%; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="4"] {
       width: 100%; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="5"] {
       width: 100%; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="6"] {
       width: 100%; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="7"] {
       width: 100%; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="8"] {
       width: 100%; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="9"] {
       width: 100%; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="10"] {
       width: 100%; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="11"] {
       width: 100%; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="12"] {
       width: 100%; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="13"] {
       width: 100%; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="14"] {
       width: 100%; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="15"] {
       width: 100%; }
-    /* line 170, artwork/shared/_grid.scss */
+    /* line 172, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-column="16"] {
       width: 100%; }
-    /* line 176, artwork/shared/_grid.scss */
+    /* line 178, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="1"] {
       margin-left: 12.5; }
-    /* line 176, artwork/shared/_grid.scss */
+    /* line 178, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="2"] {
       margin-left: 18.75; }
-    /* line 176, artwork/shared/_grid.scss */
+    /* line 178, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="3"] {
       margin-left: 25; }
-    /* line 176, artwork/shared/_grid.scss */
+    /* line 178, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="4"] {
       margin-left: 31.25; }
-    /* line 176, artwork/shared/_grid.scss */
+    /* line 178, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="5"] {
       margin-left: 37.5; }
-    /* line 176, artwork/shared/_grid.scss */
+    /* line 178, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="6"] {
       margin-left: 43.75; }
-    /* line 176, artwork/shared/_grid.scss */
+    /* line 178, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="7"] {
       margin-left: 50; }
-    /* line 176, artwork/shared/_grid.scss */
+    /* line 178, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="8"] {
       margin-left: 56.25; }
-    /* line 176, artwork/shared/_grid.scss */
+    /* line 178, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="9"] {
       margin-left: 62.5; }
-    /* line 176, artwork/shared/_grid.scss */
+    /* line 178, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="10"] {
       margin-left: 68.75; }
-    /* line 176, artwork/shared/_grid.scss */
+    /* line 178, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="11"] {
       margin-left: 75; }
-    /* line 176, artwork/shared/_grid.scss */
+    /* line 178, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="12"] {
       margin-left: 81.25; }
-    /* line 176, artwork/shared/_grid.scss */
+    /* line 178, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="13"] {
       margin-left: 87.5; }
-    /* line 176, artwork/shared/_grid.scss */
+    /* line 178, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="14"] {
       margin-left: 93.75; }
-    /* line 176, artwork/shared/_grid.scss */
+    /* line 178, artwork/shared/_grid.scss */
     [data-grid-container] [data-grid-offset="15"] {
       margin-left: 100; } }
 /* #Clearing
 ================================================== */
 /* Self Clearing Goodness */
-/* line 188, artwork/shared/_grid.scss */
+/* line 190, artwork/shared/_grid.scss */
 .container:after {
   content: "\0020";
   display: block;
@@ -927,7 +974,7 @@ img {
 
 /* Use clearfix class on parent to clear nested columns,
 or wrap each row of columns in a <div class="row"> */
-/* line 195, artwork/shared/_grid.scss */
+/* line 197, artwork/shared/_grid.scss */
 .clearfix:before,
 .clearfix:after,
 .row:before,
@@ -939,18 +986,18 @@ or wrap each row of columns in a <div class="row"> */
   width: 0;
   height: 0; }
 
-/* line 203, artwork/shared/_grid.scss */
+/* line 205, artwork/shared/_grid.scss */
 .row:after,
 .clearfix:after {
   clear: both; }
 
-/* line 206, artwork/shared/_grid.scss */
+/* line 208, artwork/shared/_grid.scss */
 .row,
 .clearfix {
   zoom: 1; }
 
 /* You can also use a <br class="clear" /> to clear columns */
-/* line 210, artwork/shared/_grid.scss */
+/* line 212, artwork/shared/_grid.scss */
 .clear {
   clear: both;
   display: block;
@@ -1130,14 +1177,14 @@ a {
     text-align: center;
     color: #727272;
     background-color: #ededed;
-    border-right: 10px solid whitesmoke;
-    border-left: 10px solid whitesmoke; }
+    border-right: 0.87719298 solid whitesmoke;
+    border-left: 0.87719298 solid whitesmoke; }
     /* line 86, website/_base.scss */
     .sample [data-grid-column].code:hover {
       background-color: #FF6600;
       color: white;
-      border-right: 10px solid #ff7214;
-      border-left: 10px solid #ff7214; }
+      border-right: 0.87719298 solid #ff7214;
+      border-left: 0.87719298 solid #ff7214; }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   /* line 100, website/_base.scss */
