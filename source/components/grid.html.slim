@@ -12,16 +12,23 @@ hgroup
 .sample
   - (0..15).each do |i|
     div(data-grid-row)
-      div.code data-grid-column="#{i+1}"= "#{i+1}"
+      div.code data-grid-column="#{i+1}"
+        .inner = "#{i+1}"
       - unless i == 15
-        div.code data-grid-column="#{16-(i+1)}"= "#{16-(i+1)}"
+        div.code data-grid-column="#{16-(i+1)}"
+          .inner= "#{16-(i+1)}"
 
   div(data-grid-row)
-    div.code data-grid-column="1"= "1"
-    div.code data-grid-column="3"= "3"
-    div.code data-grid-column="2"= "2"
-    div.code data-grid-column="4"= "4"
-    div.code data-grid-column="6"= "6"
+    div.code data-grid-column="1"
+      .inner 1
+    div.code data-grid-column="3"
+      .inner 3
+    div.code data-grid-column="2"
+      .inner 2
+    div.code data-grid-column="4"
+      .inner 4
+    div.code data-grid-column="6"
+      .inner 6
 
   div(data-grid-row)
     div.text data-grid-column="4"= lorem.paragraph

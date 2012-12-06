@@ -31,15 +31,14 @@
     }
 
     [data-grid-container] { 
-      position: relative; 
-      max-width:$grid-width; 
-      margin:   0 auto; 
-      padding:  0; 
+      position:  relative; 
+      max-width: $grid-width; 
+      margin:    0 auto; 
+      padding:   0; 
 
       [data-grid-column], [data-grid-columns] {
-        float:    left; 
-        display:  inline; 
-        padding:  0 $grid-column-gutter;
+        float:   left; 
+        display: inline;         
       }
 
       [data-grid-row] {
@@ -56,13 +55,14 @@
 
       @for $column from 1 through $grid-columns {
         [data-grid-column="#{$column}"] {
-          width: (100/$grid-columns) * $column * 1%;
+          width:   (100/$grid-columns) * $column * 1%;
+          padding:  0 ( $grid-column-gutter / $grid-width) * 100%;
         }
       }
 
       @for $column from 1 through ($grid-columns - 1) {
         [data-grid-offset="#{$column}"] {
-          margin-left: (100/$grid-columns) + ((100/$grid-columns) * $column);
+          margin-left: (100/$grid-columns) + ((100/$grid-columns) * $column) * 1%;
         }
       }
     }
@@ -77,6 +77,7 @@
     @for $column from 1 through $grid-columns {
       [data-grid-column="#{$column}"] {
         width: (100/$grid-columns) * $column;
+        padding:  0 ( $grid-column-gutter / 960px) * 100%;
       }
     }
 
@@ -101,6 +102,7 @@
         @for $column from 1 through $grid-columns {
           [data-grid-column="#{$column}"] {
             width: (100/$grid-columns) * $column;
+            padding:  0 ( $grid-column-gutter / 768px) * 100%;
           }
         }
 
@@ -184,34 +186,14 @@
 /* #Clearing
 ================================================== */
 
-    /* Self Clearing Goodness */
-    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
-
-    /* Use clearfix class on parent to clear nested columns,
-    or wrap each row of columns in a <div class="row"> */
-    .clearfix:before,
-    .clearfix:after,
-    .row:before,
-    .row:after {
-      content: '\0020';
-      display: block;
-      overflow: hidden;
-      visibility: hidden;
-      width: 0;
-      height: 0; }
-    .row:after,
-    .clearfix:after {
-      clear: both; }
-    .row,
     .clearfix {
-      zoom: 1; }
-
-    /* You can also use a <br class="clear" /> to clear columns */
-    .clear {
-      clear: both;
-      display: block;
-      overflow: hidden;
-      visibility: hidden;
-      width: 0;
-      height: 0;
-    }
+  zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}

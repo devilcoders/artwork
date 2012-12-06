@@ -71,6 +71,11 @@ a {
 }
 
 .sample {
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", sans-serif !important;  
+    font-weight: 600;
+  }
   
     [data-grid-column] {
       position: relative;
@@ -79,15 +84,14 @@ a {
         font-family: 'Droid Sans Mono', sans-serif;
         text-align: center;
         color: #727272;
-        background-color: #ededed;
-        border-right: 10px solid lighten(#ededed, 3);
-        border-left: 10px solid lighten(#ededed, 3);
 
-        &:hover {
+        .inner {
+          background-color: #ededed;
+        }                
+
+        &:hover .inner{
           background-color: #FF6600;
           color: white;
-          border-right: 10px solid lighten(#ff6600, 4);
-          border-left: 10px solid lighten(#ff6600, 4);
         }
       }
 

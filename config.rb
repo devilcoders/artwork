@@ -4,7 +4,7 @@
 
 # Susy grids in Compass
 # First: gem install susy --pre
-# require 'susy'
+require './lib/artwork/lib/artwork'
 
 # Change Compass configuration
 # compass_config do |config|
@@ -22,6 +22,11 @@
 #
 # With alternative layout
 page "/index.html", :layout => :home
+
+# Examples
+with_layout :examples_theme_pixel do
+  page '/examples/pixel/*'
+end
 #
 # A path which all have the same layout
 # with_layout :blog do
@@ -54,6 +59,8 @@ set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
 
 set :relative_links, true
+
+Sass::Script::Number.precision = 8
 
 # Build-specific configuration
 configure :build do

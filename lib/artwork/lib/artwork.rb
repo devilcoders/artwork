@@ -1,0 +1,1 @@
+Compass::Frameworks.register("artwork", :path => "#{File.dirname(__FILE__)}/..")
