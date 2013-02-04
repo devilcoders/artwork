@@ -1,0 +1,37 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+
+    /! Always force latest IE rendering engine or request Chrome Frame
+    meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
+
+    /! Use title if it's in the page YAML frontmatter
+    title= data.page.title || "A R T W O R K"
+
+    = stylesheet_link_tag "http://basehold.it/24/cccccc", "all"
+    = javascript_include_tag  "all"
+    = favicon_tag 'favicon.png'
+
+
+  body class="#{page_classes}"
+    .wrapper
+      .container
+        .row
+          header id="main-header"
+
+            = link_to image_tag("favicon.png", alt: "ARTWORK :: SASS Framework For Rapid UI Prototyping"), '/', id: 'logo'
+
+            nav#main-nav
+              ul class="inline"
+                li= link_to 'Home', '/index.html'
+                li= link_to 'Components', '/documentation/components/index.html'
+
+
+        section#main.row
+
+          = partial 'partials/sidebar'
+
+          #content
+            = yield
+

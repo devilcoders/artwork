@@ -1,0 +1,34 @@
+hgroup
+  h1 The Grid
+  h3 16 columns grid example
+
+p.description
+  | Artwork's base grid is a variation of the Skeleton's grid system.
+  | The syntax is simple and it's effective cross browser, but the
+  | awesome part is that it also has the flexibility to go mobile
+  | like a champ. Go ahead, resize the browser and watch as the layout reacts!
+
+.sample
+  - (0..11).each do |i|
+    div.row
+      div class="code column-#{i+1}"
+        .inner = "#{i+1}"
+      - unless i == 11
+        div class="code column-#{12-(i+1)}"
+          .inner= "#{11-(i+1)}"
+
+  div.row
+    div class="code column column-1"
+      .inner 1
+    div class="code column column-3"
+      .inner 3
+    div class="code column column-2"
+      .inner 2
+    div class="code column column-4"
+      .inner 4
+    div class="code column column-2"
+      .inner 2
+
+  div.row
+    div class="text column-4"= lorem.paragraph
+    div class="text column-8"= lorem.paragraphs 2

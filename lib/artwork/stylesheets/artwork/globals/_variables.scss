@@ -1,10 +1,19 @@
-//
+//--------------------------------------------------------
+// Grid variables
+//--------------------------------------------------------
+$grid-columns:            12     !default;
+$grid-max-width:          960px  !default;
+$grid-gutter-width:       20px   !default;
+$grid-container-margin:   20px   !default;
+
+$grid-class-container:    'row'  !default;
+$grid-class-column:       'col'  !default;
+$grid-class-push:         'push' !default;
+
+
+
+//--------------------------------------------------------
 // Important numbers
-//
-
-$grid-width:         1140px !default;
-$grid-columns:       16    !default;
-$grid-column-gutter: 20px  !default;
-
-$font-size:          16px  !default;
-$line-height:        1.5   !default;
+//--------------------------------------------------------
+$font-size:               16px  !default;
+$line-height:             1.5   !default;

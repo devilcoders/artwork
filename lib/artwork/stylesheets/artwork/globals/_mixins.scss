@@ -1,0 +1,21 @@
+//--------------------------------------------------------
+// Grid mixins
+//--------------------------------------------------------
+@mixin container(){
+  max-width: $grid-max-width;
+  margin: 0 $grid-container-margin;
+}
+
+@mixin column($column-number){
+  float: left;
+  padding: 0 $grid-container-margin/2;
+  width: $column-number * (100% / $grid-columns);
+}
+
+@mixin generate-grid($columns){
+  @for $column from 1 through $columns {
+    .column-#{$column} {
+      @include column($column)
+    }
+  }
+}

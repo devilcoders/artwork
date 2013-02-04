@@ -1,4 +1,9 @@
 ###
+# Slim
+###
+Slim::Engine.set_default_options pretty: true, sort_attrs: false, tabsize: 2, disable_escape: true
+
+###
 # Compass
 ###
 
@@ -23,10 +28,6 @@ require './lib/artwork/lib/artwork'
 # With alternative layout
 page "/index.html", :layout => :home
 
-# Examples
-with_layout :examples_theme_pixel do
-  page '/examples/pixel/*'
-end
 #
 # A path which all have the same layout
 # with_layout :blog do
