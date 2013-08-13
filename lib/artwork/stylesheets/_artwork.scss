@@ -1,9 +1,17 @@
 @import 'artwork/vendor/normalize';
 
-@import 'artwork/globals/variables';
-@import 'artwork/globals/functions';
-@import 'artwork/globals/mixins';
-@import 'artwork/globals/placeholders';
+@import 'artwork/globals/variables/colors';
+@import 'artwork/globals/variables/forms';
+@import 'artwork/globals/variables/grid';
+@import 'artwork/globals/variables/typography';
+
+@import 'artwork/globals/functions/typography';
+
+@import 'artwork/globals/mixins/grid';
+@import 'artwork/globals/mixins/forms';
+@import 'artwork/globals/mixins/typography';
+
+@import 'artwork/globals/placeholders/typography';
 
 @import 'artwork/shared/media';
 @import 'artwork/shared/print';

@@ -1,0 +1,71 @@
+fieldset {
+  margin: 0;
+  padding: $line-height * 1em;
+
+  legend {
+
+  }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="week"],
+input[type="month"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="datetime"],
+input[type="color"],
+input[type="checkbox"],
+input[type="radio"],
+input[type="range"],
+select,
+textarea {
+  border: 1px solid $color-input-border;
+  border-radius: 5px;
+  padding: 6px;
+  vertical-align: middle;
+  font-size: $font-size;
+  outline: none;
+  color: $color-input-text;
+  display: inline-block;
+  margin-top: -7px;
+
+  &:hover, &:focus {
+    border-color: $color-input-active-border;
+  }
+}
+
+input[type="color"] {
+  line-height: $line-height;
+}
+
+input[type="file"] {
+  border: none;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button, .button, a.button {
+  padding: $font-size - 3px;
+  margin: 0;
+  border: none;
+}
+
+select {
+  border-color: initial;
+}
+
+textarea {
+  padding: 1px;
+}
+
+.field {
+  margin: $line-height * 1em 0;
+  height: $line-height * 1em;
+}
